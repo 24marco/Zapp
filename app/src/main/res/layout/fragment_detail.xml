@@ -1,0 +1,383 @@
+<RelativeLayout
+    android:id="@+id/rel0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/send"
+        style="@style/Style12"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="send contact info"
+        android:textColor="#ffffffff"
+        android:textSize="16sp"/>
+
+    <!--line-->
+    <TextView
+        android:id="@+id/line_015"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/send"
+        android:background="#00000000"
+        />
+
+    <ScrollView
+        android:id="@+id/detail_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line_015"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/padding_white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        tools:context=".DetailActivity"
+        tools:ignore="MergeRootFrame">
+
+        <LinearLayout
+            android:id="@+id/detail_frag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".DetailFragment">
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details"
+                >
+
+                <TextView
+                    android:id="@+id/checkBox1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Name"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"/>
+
+                <!--line-->
+                <View
+                    android:id="@+id/v1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Phone 1"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#10bcc9"/>
+
+                <!--line-->
+                <View
+                    android:id="@+id/v2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Phone 2"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#10bcc9"/>
+
+                <!--line-->
+                <View
+                    android:id="@+id/v3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Phone 3"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#10bcc9"/>
+
+                <!--line-->
+                <View
+                    android:id="@+id/v4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Phone 4"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#10bcc9"/>
+
+                <!--line-->
+                <View
+                    android:id="@+id/v5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Email"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <!--line-->
+                <View
+                    android:id="@+id/v6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Address"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <!--line-->
+                <View
+                    android:id="@+id/v7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Last call"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <!--line-->
+                <View
+                    android:id="@+id/v8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/select_details">
+
+                <TextView
+                    android:id="@+id/checkBox9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Times"
+                    android:textColor="@color/user_icon_default_gray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <!--line-->
+                <View
+                    android:id="@+id/v9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/divider_horizontal_bright"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

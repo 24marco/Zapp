@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light"></style>
+
+    <style name="Style00" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/rectangle_white</item>
+    </style>
+
+    <style name="Style01" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/circle</item>
+    </style>
+
+
+    <style name="Style10" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/select</item>
+    </style>
+
+    <style name="Style11" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/rectangle_blue</item>
+    </style>
+
+    <style name="Style12" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/select_send</item>
+    </style>
+
+
+
+</resources>

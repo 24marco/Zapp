@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Zapp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_sort_name">Sort by Name</string>
+    <string name="action_sort_last">Sort by Last Called</string>
+    <string name="action_sort_most">Sort by Most Called</string>
+    <string name="action_info">About</string>
+    <string name="welcome_text">Ok</string>
+    <string name="title_DetailActivityPhone">Details: Phone</string>
+    <string name="action_details_phone">Details: Phone</string>
+    <string name="action_share">share_data</string>
+    <string name="action_detail">Zapp</string>
+
+    <string name="info1">About</string>
+    <string name="info2">I\'m Marco Gullo, I live in Palermo, in Sicily.\nI\'m learning Android programming at Google Design Group in Palermo, attending online course at Udacity.\nAt the moment this is a small app which uses basic Android technology but I think it\'s likely to grow to be a serious app.\nTry and enjoy it!</string>
+    <string name="info3">none</string>
+    <string name="info4">This app needs only READ CONTACTS permission. The app manage contacts that have a phone number and retrieve other data such postal address, mail address, call count and last time called. I coded for using the Local SQLite Database. The app can, required by user in the option menu:\n
+: store data into the database (also on first run).\n
+: present contacts sorted by name.\n
+: present contacts by last time called.\n
+: present contacts by most called.\nChoosed details can be SHARED in a text fashion using, a IM, MAIL client and so on, chosen by user. </string>
+    <string name="info5">none</string>
+    <string name="info6">none</string>
+    <string name="action_about">about</string>
+    <string name="action_overflow">overflow</string>
+    <string name="action_refresh">refresh</string>
+    <string name="action_settings">settings</string>
+    <string name="action_sort_by_size">sort</string>
+    <string name="search_hint">cerca qui</string>
+    <string name="action_search">dialog search</string>
+    <string name="action_search_actionBar">widget search</string>
+
+    <string name="activity_search">my search</string>
+
+    <string name="today">today</string>
+
+</resources>

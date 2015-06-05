@@ -1,0 +1,66 @@
+<LinearLayout
+    android:id="@+id/info_01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/info_016"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_white"
+        android:gravity="center"
+        />
+
+    <!--line-->
+    <TextView
+        android:id="@+id/info_015"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#00000000"
+        />
+
+    <ScrollView
+        android:id="@+id/info_0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/padding"
+        tools:context=".InfoActivity"
+        tools:ignore="MergeRootFrame">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/info_012"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_white"/>
+
+            <!--line-->
+            <TextView
+                android:id="@+id/info_013"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/info_012"
+                android:background="#00000000"/>
+
+            <TextView
+                android:id="@+id/info_014"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_013"
+                android:background="@drawable/rectangle_white"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
