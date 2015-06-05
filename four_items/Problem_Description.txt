@@ -1,0 +1,6 @@
+Several times phone users need to access quickly to contacts data and pick partial information 
+to share or deliver to somebody.
+User may use many methods to access a contact, for example: by name, recent called, most called.
+This app let user access a contact stored in the phone, with at least a phone number, displaying relevant information
+and select which detail to send via a standard text messaging application.
+In the first display contacts are listed using a sort method choosed by user.
